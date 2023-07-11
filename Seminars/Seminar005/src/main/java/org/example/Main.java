@@ -3,6 +3,8 @@
 
 // вывести в порядке сортировки значения
 
+// Создать вторую такую же мапу. Из первой удалить поля с соответвующими ключами второй.
+
 
 package org.example;
 
@@ -13,10 +15,17 @@ public class Main {
 
     public static void main(String[] args) {
         HashMap<Integer, String> newMap = new HashMap<>();
+        HashMap<Integer, String> secondMap = new HashMap<>();
+
         for (int i = 0; i < 10; i++) {
-            int number = new Random().nextInt(1001);
+            int number = new Random().nextInt(10);
             newMap.put(number, Character.getName(number));
         }
+        for (int i = 0; i < 10; i++) {
+            int number = new Random().nextInt(10);
+            secondMap.put(number, Character.getName(number));
+        }
+
         ArrayList<String> mapValue = new ArrayList<>();
         newMap.forEach((k, v) -> mapValue.add(v));
         Collections.sort(mapValue);
@@ -29,5 +38,8 @@ public class Main {
                 }
             }
         }
+        secondMap.forEach((k, v) -> newMap.remove(k));
+        System.out.println("=".repeat(40));
+        newMap.forEach((k, v) -> System.out.printf("%s = %s\n", k, v));
+        }
     }
-}
