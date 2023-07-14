@@ -73,7 +73,7 @@ public class Main {
 
     public T findToId (Integer value){
         for (Map.Entry<T, Integer> entry : map.entrySet()) {
-            if (value == entry.getValue()){
+            if (entry.getValue().equals(value)){
                 return entry.getKey();
             }
         }
