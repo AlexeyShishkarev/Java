@@ -1,3 +1,7 @@
+//:
+/** Комментарий к первой работе
+ * многострочный
+ */
 package org.example;
 
 import org.w3c.dom.ls.LSOutput;
@@ -41,7 +45,6 @@ public class Main {
         System.out.println(temp.findToId(4));
 
 
-
     }
 }
 
@@ -49,7 +52,11 @@ public class Main {
     private HashMap<T, Integer> map = new HashMap<>();
 //    private static final Object myo = new Object();
 
-
+     /**
+      *
+      * @param value значение, которое хотим добавить в сет
+      * @return возвращаем true или false в зависимости от результата
+      */
     public boolean addValue (T value){
         if(map.containsKey(value)){
             return false;
@@ -83,3 +90,4 @@ public class Main {
 
 }
 
+///:~
