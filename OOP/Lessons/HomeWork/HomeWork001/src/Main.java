@@ -13,19 +13,16 @@ public class Main {
         human4.setFather(human3);
 
 
-
-        human2.setChildren(human);
-        human2.setChildren(human4);
-
-
         familyTree.addHumanList(human);
         familyTree.addHumanList(human2);
         familyTree.addHumanList(human3);
         familyTree.addHumanList(human4);
 
+        System.out.println(human);
+
+        System.out.println(familyTree.findPerson("Виталий"));
 
         System.out.println(familyTree.getHumanListInfo());
-
         System.out.println(human2.getChildren());
 
     }

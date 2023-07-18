@@ -15,36 +15,74 @@ public class Person extends Human{
         this.children = new ArrayList<>();
     }
 
-
-
-
+    /**
+     * Добавление информации о матери
+     * @param mather ссылка на мать
+     */
     public void setMather(Person mather) {
         this.mather = mather;
+        mather.setChildren(this);
     }
 
     public Person getMather() {
         return mather;
     }
 
+    /**
+     * Добавление информации об отце с обновлением информации о ребенке
+     * @param father ссылка на отца
+     */
     public void setFather(Person father) {
         this.father = father;
+        father.setChildren(this);
     }
     public Person getFather() {
         return father;
     }
 
-    public void setChildren(Person person) {
+    /**
+     * Добавление ребенка
+     * @param person
+     */
+    private void setChildren(Person person) {
         children.add(person);
     }
 
+    /**
+     * Получение списка детей
+     * @return
+     */
     public String getChildren(){
         StringBuilder stringBuilder = new StringBuilder();
-        stringBuilder.append("Список детей: \n");
+        stringBuilder.append("Список детей: " + this.getFullName() + "\n" + "\n");
         for (Person person: children) {
             stringBuilder.append(person);
             stringBuilder.append("\n");
         }
         return stringBuilder.toString();
+    }
+
+    @Override
+    public String toString() {
+        if (mather != null) {
+            return super.toString() + "Мать: " + mather.getFullName() + "\n" +
+                    "Отец: " + father.getFullName() + "\n";
+        } else {
+            return super.toString() + "Мать: нет данных" + "\n";
+        }
+    }
+
+    /**
+     * Получение ФИО
+     * @return
+     */
+    private String getFullName(){
+        StringBuilder stringBuilder = new StringBuilder();
+        stringBuilder.append(this.getLastName() + " " +
+                this.getFirstName().toUpperCase().charAt(0) + ". " +
+                this.getSurName().toUpperCase().charAt(0) + ".");
+        return stringBuilder.toString();
+
     }
 
 }
