@@ -5,7 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39a984d7-7380-40bb-8131-30eee3432c16" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Begin/Seminars/Seminar005/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Exeptions/HomeWork/HomeWork003/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Exeptions/HomeWork/HomeWork003/src/controller/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Exeptions/HomeWork/HomeWork003/src/model/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Exeptions/HomeWork/HomeWork003/src/myExceptions/ExceptionDataLength.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Exeptions/HomeWork/HomeWork003/src/view/Text.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Exeptions/HomeWork/HomeWork003/src/view/UserInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Exeptions/Lessons/Lesson003/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Exeptions/Lessons/Lesson003/src/MyArrayDataException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Exeptions/Lessons/Lesson003/src/MyArraySizeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Exeptions/Lessons/Lesson003/src/devByZero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Exeptions/Lessons/Lesson003/src/name.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Exeptions/Lessons/Lesson003/src/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Begin/HomeWork/HomeWork007/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Begin/HomeWork/HomeWork007/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Begin/Seminars/Seminar004/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Begin/Seminars/Seminar004/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Begin/Seminars/Seminar005/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Begin/Seminars/Seminar005/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Begin/Seminars/Seminar006/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Begin/Seminars/Seminar006/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +41,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/aleksejsiskarev/Desktop/GB/Java/OOP/Lessons/Lesson003&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/alex/Desktop/GB/Java/OOP/Lessons/Lesson003&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
