@@ -1,4 +1,4 @@
-package myException;
+package model.myException;
 
 public class DateException extends RuntimeException{
     public DateException() {

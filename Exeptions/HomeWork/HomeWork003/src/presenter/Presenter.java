@@ -2,11 +2,9 @@ package presenter;
 
 import model.Person;
 import model.Service;
-import myException.ExceptionIO;
+import model.myException.ExceptionIO;
 import view.UserIO;
 
-import javax.swing.text.View;
-import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 

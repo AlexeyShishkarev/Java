@@ -1,13 +1,11 @@
 package model;
 
-import myException.ExceptionDataLength;
-import myException.ExceptionDataLengthMore;
-import myException.GenderException;
+import model.myException.ExceptionDataLength;
+import model.myException.ExceptionDataLengthMore;
+import model.myException.GenderException;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.time.LocalDate;
-import java.util.Locale;
 
 public class Service {
     public Service() {

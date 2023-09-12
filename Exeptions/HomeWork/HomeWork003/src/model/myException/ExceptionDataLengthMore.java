@@ -1,4 +1,4 @@
-package myException;
+package model.myException;
 
 public class ExceptionDataLengthMore extends RuntimeException{
     public ExceptionDataLengthMore() {

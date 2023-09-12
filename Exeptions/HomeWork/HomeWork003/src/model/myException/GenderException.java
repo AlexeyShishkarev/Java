@@ -1,4 +1,4 @@
-package myException;
+package model.myException;
 
 public class GenderException extends RuntimeException{
     public GenderException() {

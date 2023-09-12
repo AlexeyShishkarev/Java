@@ -1,6 +1,4 @@
-package myException;
-
-import java.io.IOException;
+package model.myException;
 
 public class ExceptionIO extends RuntimeException {
     public ExceptionIO() {
